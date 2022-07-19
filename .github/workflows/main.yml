@@ -21,7 +21,7 @@ jobs:
 
       - name: Reconcile Issue
         id: create
-        uses: eriknelson/github-actions/reconcile-issue@priority-mapping
+        uses: eriknelson/github-actions/reconcile-issue@remove-watchers
         with:
           jiraBaseUrl: https://issues.redhat.com
           jiraToken: ${{ secrets.JIRA_API_TOKEN }}
