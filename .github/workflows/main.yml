@@ -27,4 +27,5 @@ jobs:
           jiraToken: ${{ secrets.JIRA_API_TOKEN }}
           jiraProject: MTRHO
           additionalLabels: community
-          #autoWatchAccounts: ernelson@redhat.com
+          addWatchers: ernelson@redhat.com
+          removeWatchers: migeng-robot@redhat.com
